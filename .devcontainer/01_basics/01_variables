@@ -1,0 +1,11 @@
+const account_id = 12345
+let account_email = "ipsi@2112"
+var account_password = "tiks"
+acountcity = "bhubaneshwar"
+
+//const once declared cant be changed 
+/*we dont use var because ders ussue with block scope and functional scope
+and values of let can be changed and declaring a variable without using any keyword is not so good . 
+*/
+
+console.table([account_email,account_id,account_password,acountcity])
